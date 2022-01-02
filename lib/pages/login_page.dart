@@ -1,4 +1,4 @@
-import 'package:bigboi/services/auth_service.dart';
+import 'package:cripto_moedas/services/auth_service.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 

@@ -1,4 +1,4 @@
-import 'package:bigboi/models/moeda.dart';
+import 'package:cripto_moedas/models/moeda.dart';
 
 class Historico {
   DateTime dataOperacao;

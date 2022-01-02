@@ -1,7 +1,7 @@
-import 'package:bigboi/configs/app_settings.dart';
-import 'package:bigboi/models/moeda.dart';
-import 'package:bigboi/pages/moedas_detalhes_page.dart';
-import 'package:bigboi/repositories/favoritas_repository.dart';
+import 'package:cripto_moedas/configs/app_settings.dart';
+import 'package:cripto_moedas/models/moeda.dart';
+import 'package:cripto_moedas/pages/moedas_detalhes_page.dart';
+import 'package:cripto_moedas/repositories/favoritas_repository.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';
@@ -49,7 +49,7 @@ class _MoedaCardState extends State<MoedaCard> {
           padding: EdgeInsets.only(top: 20, bottom: 20, left: 20),
           child: Row(
             children: [
-              Image.asset(
+              Image.network(
                 widget.moeda.icone,
                 height: 40,
               ),

@@ -1,7 +1,7 @@
-import 'package:bigboi/pages/carteira_page.dart';
-import 'package:bigboi/pages/configuracoes_page.dart';
-import 'package:bigboi/pages/favoritas_page.dart';
-import 'package:bigboi/pages/moedas_page.dart';
+import 'package:cripto_moedas/pages/carteira_page.dart';
+import 'package:cripto_moedas/pages/configuracoes_page.dart';
+import 'package:cripto_moedas/pages/favoritas_page.dart';
+import 'package:cripto_moedas/pages/moedas_page.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {

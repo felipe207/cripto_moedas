@@ -1,6 +1,6 @@
-import 'package:bigboi/configs/app_settings.dart';
-import 'package:bigboi/repositories/conta_repository.dart';
-import 'package:bigboi/services/auth_service.dart';
+import 'package:cripto_moedas/configs/app_settings.dart';
+import 'package:cripto_moedas/repositories/conta_repository.dart';
+import 'package:cripto_moedas/services/auth_service.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:intl/intl.dart';

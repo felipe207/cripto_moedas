@@ -1,6 +1,6 @@
-import 'package:bigboi/models/moeda.dart';
-import 'package:bigboi/repositories/favoritas_repository.dart';
-import 'package:bigboi/widgets/moeda_card.dart';
+import 'package:cripto_moedas/models/moeda.dart';
+import 'package:cripto_moedas/repositories/favoritas_repository.dart';
+import 'package:cripto_moedas/widgets/moeda_card.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';

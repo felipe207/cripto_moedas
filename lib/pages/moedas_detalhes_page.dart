@@ -1,6 +1,6 @@
-import 'package:bigboi/configs/app_settings.dart';
-import 'package:bigboi/models/moeda.dart';
-import 'package:bigboi/repositories/conta_repository.dart';
+import 'package:cripto_moedas/configs/app_settings.dart';
+import 'package:cripto_moedas/models/moeda.dart';
+import 'package:cripto_moedas/repositories/conta_repository.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:intl/intl.dart';
@@ -54,9 +54,9 @@ class _MoedasDetalhesPageState extends State<MoedasDetalhesPage> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  SizedBox(
-                    child: Image.asset(widget.moeda.icone),
-                    width: 50,
+                  Image.network(
+                    widget.moeda.icone,
+                    scale: 2.5,
                   ),
                   Container(width: 10),
                   Text(
